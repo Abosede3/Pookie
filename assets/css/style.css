@@ -9,6 +9,11 @@
 ************************************************************ 
 *
 *
+
+
+
+
+
 ******* :: INDEX OF CSS :: *******
 :: 1.0 WEB FONTS
 :: 2.0 IMPORT ALL CSS
@@ -101,6 +106,7 @@
   --primary-bg-color-4: rgba(16, 16, 45, 1);
   --nav-bg-color: #d3d3d3;
 }
+
 
 * {
   margin: 0;
@@ -844,6 +850,42 @@ img {
   background-color: var(--social-color-4) !important;
 }
 
+/*  */
+   .video-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        /* Add the overlay */
+        .video-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        .video-overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+            z-index: 1;
+        }
+
+        /* Add styles to make sure the content is on top of the video */
+        #home {
+            position: relative;
+            color: #fff; /* Adjust the text color to match your design */
+        }
+
+/*  */
 /*BACKGROUND IMAGES*/
 .welcome-area {
   background: rgba(0, 0, 0, 0) url("../img/bg/welcome-bg.jpg") no-repeat scroll center center/cover;
