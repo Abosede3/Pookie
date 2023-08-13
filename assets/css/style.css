@@ -250,6 +250,10 @@ img {
   padding-bottom: 130px;
 }
 
+.pad-3{
+  padding-bottom: 20px;
+}
+
 @media screen and (max-min: 700px) {
   .pad{
     padding-bottom:0;
