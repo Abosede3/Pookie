@@ -241,6 +241,23 @@ img {
   color: var(--primary-color-2);
 }
 
+.pad{
+  padding-bottom: 77px;
+}
+
+
+.pad-2{
+  padding-bottom: 130px;
+}
+
+@media screen and (max-min: 700px) {
+  .pad{
+    padding-bottom:0;
+  }
+  .pad-2{
+    padding-bottom: 0;
+  }
+}
 /* ******************************
 :: 4.0 COMMON CSS
 ****************************** */
