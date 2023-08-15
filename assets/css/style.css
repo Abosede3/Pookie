@@ -262,6 +262,18 @@ img {
     padding-bottom: 0;
   }
 }
+
+/* ******************************
+:: 20.0 cards
+****************************** */
+
+
+
+
+/* ******************************
+:: 20.0 end cards
+****************************** */
+
 /* ******************************
 :: 4.0 COMMON CSS
 ****************************** */
@@ -283,6 +295,7 @@ img {
   cursor: pointer;
   background-color: inherit;
   margin-bottom: 20px;
+  border: 0;
 }
 
 .containerCard .card .face {
@@ -293,12 +306,13 @@ img {
 
 .containerCard .card .face.face1 {
   position: relative;
-  background: var(--primary-color);
+  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1;
   transform: translateY(100px);
+  color: #000;
 
 }
 
@@ -994,6 +1008,7 @@ img {
 /* ******************************
 :: 5.0 PRELOADER AREA CSS
 ****************************** */
+
 .preloader-main {
   position: fixed;
   height: 100%;

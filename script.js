@@ -24,3 +24,7 @@ faqItems.forEach((item) => {
       targetElement.scrollIntoView({ behavior: 'smooth' });
     }
   }
+
+  $('.card').click(function () {
+    $(this).toggleClass('flipped')
+  })
