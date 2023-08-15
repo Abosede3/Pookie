@@ -417,6 +417,7 @@ img {
 
 .fw-7 {
   font-weight: 700;
+   color: var(--primary-color-2);
 }
 
 .op-5 {
@@ -2281,10 +2282,12 @@ img {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: var(--primary-color-2);
 }
 
 .single-price-plan .plan-price > h2 > small {
   font-size: 60%;
+  color: var(--primary-color-2);
 }
 
 .single-price-plan .plan-button {
